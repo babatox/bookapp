@@ -9,6 +9,130 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+
+    /*firstlesson*/
+        background-color: #eeeeee;
+    }
+        header {
+        /*first lesson*/
+            background color: brown
+        }    
+            nav {
+            /* first lesson*/
+            position :sticky
+            top:0;
+            z-index:2;
+            background-color; hsl(160, 100%, 75%);
+        }
+
+        #intro {
+        text align :center;
+            /* first lesson*/
+            background-color: #eeff00;
+        }
+
+        .main-section-content h2 {
+            /* first lesson*/
+            background-color: #bdb76b;
+        }
+
+        #bestsellers,
+        footer {
+            /* first lesson*/
+            background-color: lightyellow;
+        }
+
+        header,
+        nav,
+        #intro,
+        #main-section,
+        #bestsellers,
+        footer {
+            /* first lesson*/
+            border: 1px solid black;
+        }
+
+        header,
+        nav,
+        #main-section {
+            /* first lesson*/
+            border-radius: 10px;
+        }
+
+        header h1 {
+            /* first lesson*/
+            color: white;
+            /*second lesson*/
+             font: size 50px;
+             margin:30px
+        }
+
+        h2,
+        p {
+            /* first lesson*/
+            color: #333333;
+        }
+
+        table,
+        th,
+        td {
+            /* first lesson*/
+            border: 1px solid black;
+        }
+
+        tr:last-child {
+            /* first lesson*/
+            color: red;
+        }
+
+        span {
+            /* first lesson*/
+            color: blue;
+        }
+
+        footer p:first-child span {
+            /* first lesson*/
+            color: red;
+        }
+
+        .teacher-info {
+            /* first lesson*/
+            border: 1px solid;
+            border-radius: 5px;
+            margin:10px
+                            width:400px
+                            boxshadow:6px 0px 21px -3px #333333
+        }
+
+        button {
+            /*first lesson*/
+            background-color: red;
+            color: white;
+            /*third lesson*/
+            padding:5px;
+            border-radius:5px;
+            border: none;
+            /*fourth lesson*/
+            position:fixed;
+            right:50px
+            botton:40px
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!--Heading-->
+        <header style='background-color: cadetblue;'>
+            <h1>
+                Mount Caramel Book Club
+            </h1>
+            <img src="./public/img.jpg" alt="Row of books" width="300">
+        </header>    
 </head>
 
 <body>
@@ -54,11 +178,20 @@
                                 <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </nav>
+                        
                         <!--Intro-->
                         <div id="intro">
                             <h2>Welcome to Mount Caramel Book Club</h2>
                             <p>The Mount Caramel Book Club is an online community of book readers in Mount Caramel school.</p>
                         </div>
+                        /*fourth <lesson>
+                            #book-reviews p,
+                            #book-reviews h3 {
+                                <position:relative>
+                                    left :40%
+                                    width :400px
+
+
                         <!--Main Section-->
                         <div id="main-section">
                             <!--content-1-->
@@ -192,6 +325,8 @@
                         </div>
                     </div>
                     <div class="teacher-info">
+                        <margin:10px>
+                            <width>
                         <div>
                             <img src="./public/teacher2.jpg" alt="teacher image" width="100">
                         </div>
