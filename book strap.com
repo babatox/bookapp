@@ -25,10 +25,17 @@ content="width=device-width, initial-scale=1">
 
 </head>
 
-<div class = "container bg-success text white">
-<h1>My first bootstrap page<h1>
-<p>This part is inside a.container class</p>
-<p> The .container class providea responsive fixed width container </p>
+ <title>Full width container</title>
+</head>
+<body>
+  
+<div class="container bg-success text-white" >
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container class.</p> 
+  <p>The .container class provides a responsive fixed width container.</p>
+  </div>
 
+  
+  
 </body>
 </html>
