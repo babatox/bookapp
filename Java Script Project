@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>console page</title>
+    </head>
+    <body>
+        <h2> welcome to javascript</h2>
+        <script>
+            console . log("welcome to web development")
+            </script>
+                </body>
+</html>
